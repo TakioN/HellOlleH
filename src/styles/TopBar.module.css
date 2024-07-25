@@ -1,0 +1,49 @@
+/* fonts */
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../assets/fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'hallasan';
+    src: url('../assets/fonts/JejuHallasan.ttf');
+}
+
+/* css */
+.topSpace{
+    /* background-color: #08B2F5; */
+    background-color: black;
+    color: rgb(195, 188, 188);
+    height: 70px;
+    vertical-align: middle;
+    line-height: 70px;
+    /* display: flex;
+    align-items: center;
+    justify-content: right; */
+    padding-right: 20px;
+    position: relative;
+    font-family: 'hallasan';
+    font-size: 50px;
+}
+.nav_buttons {
+    position: absolute;
+    right: 20px;
+    top: -8px;
+}
+.sign {
+    border-radius: 10px;
+    font-size: 23px;
+    margin-left: 10px;
+    font-family: 'BebasNeue';
+    cursor: pointer;
+    /* padding: 9px 18px 7px 18px; */
+}
+.sign:hover {
+    background-color: gray;
+}
+.olleh_logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
