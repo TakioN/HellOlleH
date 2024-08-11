@@ -1,3 +1,17 @@
+/* fonts */
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('assets/fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+  font-family: 'hallasan';
+  src: url('assets/fonts/JejuHallasan.ttf');
+}
+@font-face {
+  font-family: 'dokdo';
+  src: url('assets/fonts/Dokdo-Regular.ttf');
+}
+
 .App {
   text-align: center;
 }
@@ -41,4 +55,7 @@
 a {
   text-decoration: none;
   color: inherit;
+}
+p {
+  margin: 0;
 }

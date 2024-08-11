@@ -1,0 +1,31 @@
+.startBtn {
+    border-radius: 50%;
+    border: 5px solid orange;
+    width: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'hallasan';
+    font-size: 70px;
+    cursor: pointer;
+    background-color: rgb(0, 187, 255);
+    line-height: 75px;
+}
+.startBtn:hover {
+    font-size: 80px;
+    line-height: 85px;
+}
+.items {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    width: 1080px;
+    /* row-gap: 2px; */
+}
+.select_grid {
+    aspect-ratio: 3/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}

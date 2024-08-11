@@ -1,14 +1,3 @@
-/* fonts */
-@font-face {
-    font-family: 'BebasNeue';
-    src: url('../assets/fonts/BebasNeue-Regular.ttf');
-}
-@font-face {
-    font-family: 'hallasan';
-    src: url('../assets/fonts/JejuHallasan.ttf');
-}
-
-/* css */
 .topSpace{
     /* background-color: #08B2F5; */
     background-color: black;
