@@ -1,0 +1,9 @@
+.routeImage {
+    cursor: pointer;
+}
+.routeName {
+    cursor: pointer;
+}
+.hoverDiv p {
+    color: orangered;
+}

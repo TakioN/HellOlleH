@@ -6,7 +6,7 @@ function TopBar() {
         <div>
             <div className={`${style.topSpace}`}>
                 <img className={`${style.olleh_logo}`} src={olleh_logo} alt='olleh' />
-                <a href={''}>{"HellOlleH"}</a>
+                <a href={'/'}>{"HellOlleH"}</a>
                 <div className={style.nav_buttons}>
                     <button className={`${style.sign}`}>Sign In</button>
                     <button className={`${style.sign}`}>Start For Free</button>

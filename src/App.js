@@ -1,11 +1,21 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import MainScreen from './components/MainScreen';
+import AllRoute from './components/AllRoute';
+import Course from './components/Course';
 
 function App() {
   return (
-    <div className="App">
-      <MainScreen />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path='/' element={<MainScreen />} />
+          <Route path='/olleroute' element={<AllRoute />} />
+          <Route path='/course' element={<Course />} />
+          {/* <MainScreen /> */}
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
