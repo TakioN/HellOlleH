@@ -3,6 +3,7 @@ import './App.css';
 import MainScreen from './components/MainScreen';
 import AllRoute from './components/AllRoute';
 import Course from './components/Course';
+import Record from './components/Record';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path='/' element={<MainScreen />} />
           <Route path='/olleroute' element={<AllRoute />} />
           <Route path='/course' element={<Course />} />
+          <Route path='/record' element={<Record />} />
           {/* <MainScreen /> */}
         </Routes>
       </div>

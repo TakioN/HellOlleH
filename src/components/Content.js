@@ -20,6 +20,10 @@ function Content() {
         navigate('/olleroute');
     }
 
+    const gotoRecord = () => {
+        navigate('/record');
+    }
+
     return(
         <div style={{width: '1200px', margin: '0 auto'}}>
             <div className='olle_image' style={{paddingTop: '25px'}}>
@@ -27,7 +31,7 @@ function Content() {
             </div>
             <div className={`${style.items}`}>
                 <div className={`${style.select_grid}`} style={{borderBottom: '1px dotted gray'}}>
-                    <p style={{fontFamily: 'dokdo', fontSize: '40px', cursor: 'pointer'}}>내 기록 확인</p>
+                    <p style={{fontFamily: 'dokdo', fontSize: '40px', cursor: 'pointer'}} onClick={gotoRecord}>내 기록 확인</p>
                     <img src={footprint} style={{width: '50%', height: '70%', cursor: 'pointer'}} alt='' />
                 </div>
                 <div style={{gridRow: '1/3', gridColumn: '2/3', display: 'flex', alignItems: 'center', padding: '0 20px'}}>
